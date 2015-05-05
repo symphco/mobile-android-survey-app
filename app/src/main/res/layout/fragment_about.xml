@@ -1,0 +1,23 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView.Vertical.Full">
+    <LinearLayout
+        style="@style/LinearLayout.Vertical">
+        <TextView
+            android:text="@string/app_description"
+            style="@style/TextView.Title.Center" />
+
+        <View style="@style/Divider"/>
+
+        <TextView
+            android:id="@+id/app_version"
+            android:text="@string/version"
+            style="@style/TextView.Title.Center"/>
+
+        <View style="@style/Divider"/>
+
+        <TextView
+            android:text="@string/app_website"
+            style="@style/TextView.Links.Center"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView.Vertical">
+    <LinearLayout
+        style="@style/LinearLayout.Vertical">
+        <include layout="@layout/fragment_widget"/>
+        <LinearLayout
+            style="@style/LinearLayout.Horizontal">
+            <TextView
+                android:id="@+id/label_prefix"
+                style="@style/TextView.Prefix" />
+            <EditText
+                android:id="@+id/edit_text"
+                android:hint="@string/enter_text"
+                android:layout_weight="1"
+                android:inputType="text|textCapSentences"
+                style="@style/EditText" />
+            <TextView
+                android:id="@+id/label_suffix"
+                style="@style/TextView.Suffix" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

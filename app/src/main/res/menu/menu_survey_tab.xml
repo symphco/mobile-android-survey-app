@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_about"
+        android:title="@string/about"
+        android:icon="@drawable/ic_action_about_light"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_logout"
+        android:title="@string/logout"
+        android:icon="@drawable/ic_action_signup_light"
+        app:showAsAction="never" />
+</menu>

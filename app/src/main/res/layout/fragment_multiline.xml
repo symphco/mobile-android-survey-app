@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView.Vertical">
+    <LinearLayout
+        style="@style/LinearLayout.Vertical">
+        <include layout="@layout/fragment_widget"/>
+        <EditText
+            android:id="@+id/edit_text"
+            android:hint="@string/enter_text"
+            style="@style/EditText.Multiline" />
+    </LinearLayout>
+</ScrollView>

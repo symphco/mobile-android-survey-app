@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_keyboard_title"
+        android:title="@string/keyboard_title"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/menu_keyboard_sentence"
+        android:title="@string/keyboard_sentence"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/menu_keyboard_lowercase"
+        android:title="@string/keyboard_lowercase"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/menu_keyboard_uppercase"
+        android:title="@string/keyboard_uppercase"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/menu_keyboard_name"
+        android:title="@string/keyboard_name"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/menu_keyboard_phone"
+        android:title="@string/keyboard_phone"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/menu_keyboard_email"
+        android:title="@string/keyboard_email"
+        app:showAsAction="never" />
+</menu>

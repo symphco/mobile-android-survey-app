@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView.Vertical">
+    <LinearLayout
+        style="@style/LinearLayout.Vertical">
+        <include layout="@layout/fragment_widget"/>
+        <View style="@style/Divider"/>
+        <TextView
+            android:id="@+id/label_markup"
+            android:paddingTop="8dp"
+            style="@style/TextView.Value" />
+    </LinearLayout>
+</ScrollView>

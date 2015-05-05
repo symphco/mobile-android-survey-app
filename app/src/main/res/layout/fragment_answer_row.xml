@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LinearLayout.Vertical">
+    <TextView
+        android:id="@+id/question_name"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp"
+        style="@style/TextView.Label" />
+    <TextView
+        android:id="@+id/answer_value"
+        android:paddingTop="4dp"
+        android:paddingBottom="8dp"
+        style="@style/TextView.Value" />
+</LinearLayout>

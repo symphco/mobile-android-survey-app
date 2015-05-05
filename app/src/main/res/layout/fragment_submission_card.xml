@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    style="@style/CardView.Rounded">
+    <TableLayout
+        style="@style/TableLayout"
+        android:shrinkColumns="1"
+        android:stretchColumns="1">
+
+        <TableRow
+            android:id="@+id/row_title"
+            style="@style/TableRow">
+            <TextView
+                android:id="@+id/label_title"
+                android:text="Survey With A Long Title"
+                android:layout_span="2"
+                android:layout_width="fill_parent"
+                android:paddingTop="8dp"
+                android:paddingBottom="4dp"
+                style="@style/TextView.Title" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_saved"
+            style="@style/TableRow">
+            <TextView
+                android:id="@+id/label_saved"
+                android:text="@string/saved"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:paddingRight="8dp"
+                style="@style/TextView.SubTitle" />
+            <TextView
+                android:id="@+id/date_saved"
+                android:text="12:40pm, March 18, 2015"
+                android:paddingTop="4dp"
+                android:paddingBottom="2dp"
+                android:paddingLeft="8dp"
+                style="@style/TextView.Description.Truncate" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_submitted"
+            style="@style/TableRow">
+            <TextView
+                android:id="@+id/label_submitted"
+                android:text="@string/submitted"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"
+                android:paddingRight="8dp"
+                style="@style/TextView.Description" />
+            <TextView
+                android:id="@+id/date_submitted"
+                android:text="12:40pm, March 18, 2015"
+                android:paddingTop="4dp"
+                android:paddingBottom="2dp"
+                android:paddingLeft="8dp"
+                style="@style/TextView.Description.Truncate" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_required"
+            style="@style/TableRow">
+            <TextView
+                android:id="@+id/label_required"
+                android:text="@string/required"
+                android:paddingTop="2dp"
+                android:paddingBottom="8dp"
+                android:paddingRight="8dp"
+                style="@style/TextView.Description" />
+            <ProgressBar
+                android:id="@+id/progress_required"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                style="@style/ProgressBar" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row_total"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+            <TextView
+                android:id="@+id/label_total"
+                android:text="@string/answered"
+                android:paddingTop="2dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="0dp"
+                android:layout_marginBottom="0dp"
+                style="@style/TextView.Description" />
+            <ProgressBar
+                android:id="@+id/progress_total"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="0dp"
+                style="@style/ProgressBar" />
+        </TableRow>
+    </TableLayout>
+</android.support.v7.widget.CardView>

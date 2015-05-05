@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_camera"
+        android:title="@string/take_photo"
+        android:icon="@drawable/ic_action_camera_light"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_discard"
+        android:title="@string/discard_photo"
+        android:icon="@drawable/ic_action_discard_light"
+        app:showAsAction="never" />
+</menu>

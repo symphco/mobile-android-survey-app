@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LinearLayout.Vertical.Full">
+    <include layout="@layout/fragment_widget"/>
+    <TextView
+        android:paddingTop="0dp"
+        android:paddingBottom="4dp"
+        android:text="@string/map_marker_hint"
+        style="@style/TextView.Description" />
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map_view"
+        style="@style/MapView"
+        android:minHeight="50dp" />
+</LinearLayout>

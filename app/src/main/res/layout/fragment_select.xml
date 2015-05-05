@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LinearLayout.Vertical.Full">
+    <include layout="@layout/fragment_widget"/>
+    <ScrollView
+        android:id="@+id/scroll_view"
+        style="@style/ScrollView.Vertical.Full">
+        <RadioGroup
+            android:id="@+id/radio_group"
+            style="@style/RadioGroup.Vertical.Wrap"/>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LinearLayout.Vertical">
+
+    <TextView
+        android:id="@+id/label_error"
+        android:text="@string/loading_"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="50dp"
+        style="@style/TextView.Info" />
+</LinearLayout>

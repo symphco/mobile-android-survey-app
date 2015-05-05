@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LinearLayout.Vertical">
+    <LinearLayout
+        style="@style/LinearLayout.Horizontal">
+        <TextView
+            android:id="@+id/label_name"
+            android:paddingBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            style="@style/TextView.Title" />
+        <TextView
+            android:id="@+id/label_required"
+            android:paddingBottom="8dp"
+            android:layout_width="wrap_content"
+            android:text="@string/question_required"
+            android:layout_gravity="right"
+            style="@style/TextView.Required" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/label_description"
+        android:paddingTop="0dp"
+        android:paddingBottom="8dp"
+        style="@style/TextView.Description" />
+</LinearLayout>

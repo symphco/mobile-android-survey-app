@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ScrollView.Vertical.Full">
+    <LinearLayout
+        style="@style/LinearLayout.Vertical">
+
+        <TextView
+            android:text="@string/enter_signup_description"
+            android:paddingTop="16dp"
+            android:paddingBottom="0dp"
+            style="@style/TextView.Description.Center"/>
+
+        <EditText
+            android:id="@+id/edit_username"
+            android:hint="@string/enter_username"
+            android:paddingTop="4dp"
+            android:drawableLeft="@drawable/ic_action_username_dark"
+            android:drawablePadding="5dp"
+            style="@style/EditText.NoSuggestions"/>
+
+        <EditText
+            android:id="@+id/edit_email"
+            android:hint="@string/enter_email"
+            android:paddingTop="4dp"
+            android:drawableLeft="@drawable/ic_action_email_dark"
+            android:drawablePadding="5dp"
+            style="@style/EditText.Email"/>
+
+        <EditText
+            android:id="@+id/edit_password"
+            android:hint="@string/enter_password"
+            android:paddingTop="4dp"
+            android:drawableLeft="@drawable/ic_action_password_dark"
+            android:drawablePadding="5dp"
+            style="@style/EditText.Password"/>
+
+        <TextView
+            android:text="@string/enter_signup_help"
+            android:linksClickable="true"
+            android:autoLink="web|email"
+            style="@style/TextView.Description.Center"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_keyboard_number"
+        android:title="@string/keyboard_number"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/menu_keyboard_decimal"
+        android:title="@string/keyboard_decimal"
+        app:showAsAction="never" />
+</menu>
