@@ -1,6 +1,6 @@
-# ARMM Android
+# Mobile Android Survey App
 
-### ARMM Android is a mobile application to download web surveys, allow offline entry and upload collected submissions to [http://opened.opengov.ph](http://opened.opengov.ph).
+### Mobile Android Survey App is a mobile application to download web surveys, allow offline entry and upload collected submissions to a Drupal Survey Platform [https://github.com/opengovt/open-survey-platform](https://github.com/opengovt/open-survey-platform)
 
 ## Android Version
 
@@ -36,7 +36,7 @@ Before the user can begin collecting surveys, they are required to login to the 
 
 ![login](doc/1.0/armm_login.png?raw=true)
 
-If the user needs to create an OpenEd account or forgots their password, they can visit [http://opened.opengov.ph/user/login](http://opened.opengov.ph/user/login).
+If the user needs to create an OpenEd account or forgots their password, they can visit [/user/login](/user/login).
 
 ## Survey Tab
 
@@ -174,4 +174,4 @@ The app requires the following local libariries:
 
 Note, both the external and local libraries are defined in the [build.gradle](app/build.gradle) file.
 
-#### For additional questions about the ARMM project, please visit [http://opened.opengov.ph/contact](http://opened.opengov.ph/contact) or [https://github.com/opengovt](https://github.com/opengovt).
+#### For additional questions about this and project and other Open Government Projects, please visit:  [https://github.com/opengovt](https://github.com/opengovt).
