@@ -1,6 +1,6 @@
 # Mobile Android Survey App
 
-### Mobile Android Survey App is a mobile application to download web surveys, allow offline entry and upload collected submissions to a Drupal Survey Platform [https://github.com/opengovt/open-survey-platform](https://github.com/opengovt/open-survey-platform)
+### Mobile Android Survey App is a mobile application to download web surveys, allow offline entry and upload collected submissions to a Drupal Survey Platform [https://github.com/symph-team/open-survey-platform](https://github.com/symph-team/open-survey-platform)
 
 ## Android Version
 
@@ -174,4 +174,4 @@ The app requires the following local libariries:
 
 Note, both the external and local libraries are defined in the [build.gradle](app/build.gradle) file.
 
-#### For additional questions about this and project and other Open Government Projects, please visit:  [https://github.com/opengovt](https://github.com/opengovt).
+#### For additional questions about this and project and other Open Government Projects, please visit:  [https://github.com/symph-team](https://github.com/symph-team).
